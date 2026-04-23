@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Playlists</title>
+
+    <link rel="stylesheet" href="playlist.css" />
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="title"><i class="fa fa-music"></i> Your Playlists</h1>
+
+        <!-- Create Playlist Box -->
+        <div class="create-box">
+            <h2>Create New Playlist</h2>
+
+            <div class="input-area">
+                <input type="text" id="playlistName" placeholder="Enter playlist name...">
+                <button id="savePlaylistBtn">Create</button>
+            </div>
+        </div>
+
+        <h2 class="subtitle">Your Saved Playlists</h2>
+
+        <!-- Playlist Grid -->
+        <div id="playlistContainer" class="playlist-grid"></div>
+
+    </div>
+
+    <script src="playlist.js"></script>
+</body>
+
+</html>
